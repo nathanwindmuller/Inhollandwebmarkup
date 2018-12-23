@@ -55,6 +55,7 @@ a:visited{
     color: #FFFFFF;
 }
 section{
+    background-color: #FFFFFF;
     width: 960px;
     margin: auto;
 }
@@ -69,10 +70,40 @@ section{
     text-align: center;
     color: #FFFFFF;
 }
+footer{
+    width: 960px;
+    height: 56px;
+    margin: auto;
+    background-color: #000000;
+    /*Text properties*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #FFFFFF;
+    line-height: 56px;
+}
+/*Special classes*/
 .homeimg{
-    flex-direction: column;
     background-position: center;
-    background-size: cover;
+    object-fit: cover;
+    width: 960px;
+    height: 400px;
+    margin: auto;
+}
+#homepagesection{
+    display: flex;
+    flex-direction: column;
     width: 960px;
     margin: auto;
+}
+/*Product page*/
+.products{
+    display: flex;
+}
+.productimg{
+    flex-direction: row;
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    margin: 7.5px;
 }
