@@ -16,7 +16,8 @@ html{
     margin: auto;
     /*Text properties*/
     font-family: "Berlin Sans FB";
-    font-size: 6em;
+    font-size: 5em;
+    font-weight: 500;
     color:#FFFFFF; 
     text-align: center;
     padding-top: 40px;
@@ -24,19 +25,10 @@ html{
     /*Text outlining*/
     -moz-text-fill-color: #fde;
     -webkit-text-fill-color: #fde;
-       -moz-text-stroke-color: #000000;
+    -moz-text-stroke-color: #000000;
     -webkit-text-stroke-color: #000000;
-       -moz-text-stroke-width: 2px;  
-    -webkit-text-stroke-width: 2px;
-}
-section{
-    width: 960px;
-    margin: auto;
-}
-.homeimg{
-    background-position: center;
-    background-size: cover;
-    width: 960px;
+    -moz-text-stroke-width: 3px;  
+    -webkit-text-stroke-width: 3px;
 }
 nav{
     background-color:#606060;
@@ -50,7 +42,7 @@ nav{
     border-right: 0px;
     border-style: solid;
     /*Text properties*/
-    font-family: "Arial";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-align: center;
 }
@@ -61,4 +53,26 @@ a:link{
 }
 a:visited{
     color: #FFFFFF;
+}
+section{
+    width: 960px;
+    margin: auto;
+}
+.splitheader{
+    width: 960px;
+    height: 230px;
+    margin: auto;
+    background-color: #2699FB;
+    /*Test properties*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.homeimg{
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    width: 960px;
+    margin: auto;
 }
