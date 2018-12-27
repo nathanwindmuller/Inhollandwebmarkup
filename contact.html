@@ -1,42 +1,59 @@
-COMPANY NAME
-Home
-Product
-Contact
-More information
-<form action="nowhere.php" method="post">
-	<fieldset>
-		<label >Select topic</label>
-		<select>
-			<option value="general">General inquiries</option>
-			<option value="press">Press relations</option>
-			<option value="recruitement">Recruitement</option>
-		</select>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="text"
-				name="contactFormName"
-				placeholder="Your name.."
-		/>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="email"
-				name="email"
-				placeholder="Your email.."
-		/>
-	</fieldset>
-	<fieldset>
-		<textarea
-				rows="7"
-				cols="40"
-				name="message"
-				placeholder="Write something.."
-		></textarea>
-	</fieldset>
-	<input
-			type="submit"
-			value="Submit"
-	/>
-</form>
-2018 - Student name - Inholland 
+
+<!DOCTYPE HTML>
+<html>
+    <title>Company Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <head>
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        </head>
+    <body>
+        <header id="mainheader">COMPANY NAME</header>
+        <nav>
+            <a href="product.html">PRODUCTS</a>
+            <a href="http://blogger.com">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+        <section id="homepagesection">
+			<form action="nowhere.php" method="post">
+				<fieldset>
+					<label >Select topic</label>
+					<select>
+						<option value="general">General inquiries</option>
+						<option value="press">Press relations</option>
+						<option value="recruitement">Recruitement</option>
+					</select>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input 
+						class="persoonInformatie"
+							type="text"
+							name="contactFormName"
+							placeholder="Your name.."
+					/>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input 
+						class="persoonInformatie"
+							type="email"
+							name="email"
+							placeholder="Your email.."
+					/>
+				</fieldset>
+				<fieldset>
+					<textarea
+							rows="7"
+							cols="40"
+							name="message"
+							placeholder="Write something.."
+					></textarea>
+				</fieldset>
+				<input
+					class="SubmitButton"
+						type="submit"
+						value="Submit"
+				/>
+			</form>
+                <footer>&copy;2018 - Nathan Windm&#252;ller - Inholland</footer>
+        </section>
+    </body>
+</html>
