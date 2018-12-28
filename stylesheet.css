@@ -113,17 +113,15 @@ footer{
 }
 .products{
     display: flex;
+    flex-flow: row wrap;
     margin-inline-start: 7.5px;
     margin-block-end: 15px;
     margin-block-start: 15px;
+    justify-content: space-around;
 }
 .productimg{
-    display: inline-block;
-    background: blue;
-    margin: 10px 0 0 2%;
-    flex-grow: 1;
-    height: 100px;
-    width: calc(100% * (1/4) - 10px - 1px);
+    height: 200px;
+    width: 30%;
 }
 /*Contact page*/
 form{
@@ -281,7 +279,7 @@ textarea:focus{
     .productimg{
         flex-direction: row;
         background-position: center;
-        width: 48%;
+        width: 30%;
         height: 200px;
         margin-left: 7.5px;
         margin-right: 7.5px;
