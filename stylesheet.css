@@ -280,7 +280,7 @@ textarea:focus{
     .productimg{
         flex-direction: row;
         background-position: center;
-        width: 300px;
+        width: 48%;
         height: 200px;
         margin-left: 7.5px;
         margin-right: 7.5px;
