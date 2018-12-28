@@ -190,7 +190,6 @@ textarea:focus{
         background-size: cover;
         background-position: bottom;
         width: 100%;
-        margin: auto;
         /*Text properties*/
         font-family: "Berlin Sans FB";
         font-size: 5em;
