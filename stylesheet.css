@@ -2,14 +2,14 @@ body{
     margin: 0;
 }
 html{
-    background-image: url("img/background.jpeg");
+    background-image: url(img/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin:0;
 }
 #mainheader{
-    background-image: url("img/companylogoBG.png");
+    background-image: url(img/companylogoBG.png);
     background-size: cover;
     background-position: bottom;
     width: 960px;
