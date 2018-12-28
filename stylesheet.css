@@ -9,7 +9,7 @@ html{
     margin:0;
 }
 #mainheader{
-    background-image: url("img/companylogoBG.jpg");
+    background-image: url("img/companylogoBG.png");
     background-size: cover;
     background-position: bottom;
     width: 960px;
@@ -186,7 +186,7 @@ textarea:focus{
         margin:0;
     }
     #mainheader{
-        background-image: url(img/companylogoBG.jpg);
+        background-image: url(img/companylogoBG.png);
         background-size: cover;
         background-position: bottom;
         width: 100%;
