@@ -186,7 +186,7 @@ textarea:focus{
         margin:0;
     }
     #mainheader{
-        background-image: url(img/companylogoBG.png);
+        background-color: black;
         background-size: cover;
         background-position: bottom;
         width: 100%;
