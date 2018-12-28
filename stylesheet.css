@@ -2,14 +2,14 @@ body{
     margin: 0;
 }
 html{
-    background-image: url(background.jpeg);
+    background-image: url(img/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin:0;
 }
 #mainheader{
-    background-image: url(companylogoBG.jpg);
+    background-image: url(img/companylogoBG.jpg);
     background-size: cover;
     background-position: bottom;
     width: 960px;
@@ -179,14 +179,14 @@ textarea:focus{
         margin: 0;
     }
     html{
-        background-image: url(background.jpeg);
+        background-image: url(img/background.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin:0;
     }
     #mainheader{
-        background-image: url(companylogoBG.jpg);
+        background-image: url(img/companylogoBG.jpg);
         background-size: cover;
         background-position: bottom;
         width: 100%;
