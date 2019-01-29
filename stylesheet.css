@@ -441,10 +441,12 @@ textarea:focus{
         justify-content: space-around;
     }
     .productimg{
+        object-fit: cover;
+        object-position: center;
         flex-direction: row;
         background-position: center;
         width: 97%;
-        height: 260px;
+        height: 400px;
     }
     /*Contact page*/
     form{
