@@ -177,6 +177,7 @@ textarea:focus{
 @media only screen and (max-width: 960px){
     body{
         margin: 0;
+        size: 100%;
     }
     html{
         background-image: url(img/background.jpeg);
