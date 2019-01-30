@@ -199,10 +199,11 @@ textarea:focus{
         margin: 0;
     }
     .mainheader{
-        background-color: url(img/companylogoBG.png);
-        background-size: 100%;
+        background-image: url(img/companylogoBG.png);
+        background-size: cover;
         background-position: bottom;
         /*Text properties*/
+        -webkit-font-family: "Berlin Sans FB" ;
         font-family: "Berlin Sans FB";
         font-size: 5em;
         font-weight: 500;
