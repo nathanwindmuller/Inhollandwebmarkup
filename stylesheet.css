@@ -123,6 +123,9 @@ footer{
     margin-bottom: 15px;
     height: 210px;
     width: 32%;
+    border: #606060;
+    border-width: 1px;
+    border-style: solid;
 }
 /*Contact page*/
 form{
