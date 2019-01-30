@@ -295,6 +295,7 @@ textarea:focus{
         font-family: Arial, Helvetica, sans-serif;
     }
     fieldset{
+        width: 100%;
         border: #606060;
         border-style: solid;
         margin-top: 35px;
