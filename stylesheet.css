@@ -63,13 +63,13 @@ section{
     border-left: solid, #606060, 1px;
 }
 .splitheader{
-    width: 960px;
-    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #2699FB;
     /*Test properties*/
     word-break: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.5em;
+    font-size: 5em;
     text-align: center;
     color: #FFFFFF;
 }
@@ -247,12 +247,13 @@ textarea:focus{
         border-left: solid, #606060, 1px;
     }
     .splitheader{
+        padding-top: 10px;
+        padding-bottom: 10px;
         background-color: #2699FB;
-        width: 100%;
-        /*Text properties*/
+        /*Test properties*/
         word-break: normal;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 4.5em;
+        font-size: 5em;
         text-align: center;
         color: #FFFFFF;
     }
@@ -284,6 +285,7 @@ textarea:focus{
         padding-bottom: 10px;
         background-color: #2699FB;
         /*Test properties*/
+        word-break: normal;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 5em;
         text-align: center;
