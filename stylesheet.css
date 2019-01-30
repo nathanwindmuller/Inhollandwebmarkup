@@ -8,7 +8,7 @@ html{
     background-attachment: fixed;
     margin:0;
 }
-#mainheader{
+.mainheader{
     background-image: url(img/companylogoBG.png);
     background-size: cover;
     background-position: bottom;
@@ -67,6 +67,7 @@ section{
     margin: auto;
     background-color: #2699FB;
     /*Test properties*/
+    word-break: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4.5em;
     text-align: center;
@@ -248,6 +249,7 @@ textarea:focus{
         background-color: #2699FB;
         width: 100%;
         /*Text properties*/
+        word-break: normal;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 4.5em;
         text-align: center;
@@ -264,14 +266,16 @@ textarea:focus{
         line-height: 56px;
     }
     /*Special classes*/
+    #homepagesection{
+        display: flex;
+        flex-flow: column wrap;
+    }
     .homeimg{
+        flex-direction: column;
         background-position: center;
         object-fit: cover;
         height: 450px;
-    }
-    #homepagesection{
-        display: flex;
-        flex-direction: column;
+        width: 49%;
     }
     /*Product page*/
     .productheader{
@@ -292,6 +296,7 @@ textarea:focus{
     }
     .productimg{
         flex-direction: row;
+        object-fit: cover;
         background-position: center;
         width: 47%;
         height: 260px;
