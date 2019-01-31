@@ -544,7 +544,6 @@ textarea:focus{
     }
     .dropdown-content{
         display: none;
-        position: absolute;
         background-color: #606060;
         color: #FFFFFF;
         width: 100%;
