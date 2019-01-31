@@ -31,7 +31,7 @@ html{
     -moz-text-stroke-width: 3px;  
     -webkit-text-stroke-width: 3px;
 }
-nav{
+.navbar{
     background-color:#606060;
     color: #ffffff;
     width: 960px;
@@ -46,6 +46,9 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-align: center;
+}
+.hamburgernav{
+    display: none;
 }
 a:link{
     color: #FFFFFF;
@@ -282,7 +285,7 @@ textarea:focus{
         -moz-text-stroke-width: 3px;  
         -webkit-text-stroke-width: 3px;
     }
-    nav{
+    .navbar{
         background-color:#606060;
         color: #ffffff;
         padding-top: 10px;
@@ -295,6 +298,9 @@ textarea:focus{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2em;
         text-align: center;
+    }
+    .hamburgernav{
+        display: none;
     }
     a:link{
         color: #FFFFFF;
@@ -499,9 +505,15 @@ textarea:focus{
         -moz-text-stroke-width: 3px;  
         -webkit-text-stroke-width: 3px;
     }
-    nav{
+    .navbar{
+        display: none;
+    }
+    .hamburgernav{
         background-color:#606060;
         color: #ffffff;
+        width: 960px;
+        height: 100px;
+        margin: auto;
         padding-top: 10px;
         padding-bottom: 10px;
         border-color: #FFFFFF;
