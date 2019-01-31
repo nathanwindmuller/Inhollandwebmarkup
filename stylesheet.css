@@ -425,6 +425,7 @@ textarea:focus{
         flex-direction: column;
     }
     form{
+        width: auto;
         font-family: Arial, Helvetica, sans-serif;
     }
     fieldset{
@@ -687,8 +688,7 @@ textarea:focus{
     }
     /*Contact page*/
     form{
-        margin-left: 70px;
-        margin-right: 70px;
+        width: auto;
         font-family: Arial, Helvetica, sans-serif;
     }
     fieldset{
