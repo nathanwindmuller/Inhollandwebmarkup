@@ -183,12 +183,13 @@ footer{
 }
 .productimg{
     flex-direction: row;
-    background-position: center;
+    object-fit: fill;
+    position: center;
     margin-bottom: 15px;
     height: 210px;
     width: 32%;
     border: #606060;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
 }
 /*Contact page*/
