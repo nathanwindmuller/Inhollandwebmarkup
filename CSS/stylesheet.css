@@ -22,7 +22,7 @@ html{
     z-index: -100;
 }
 .mainheader{
-    background-image: url(.img/companylogoBG.png);
+    background-image: url(img/companylogoBG.png);
     background-size: cover;
     background-position: bottom;
     width: 960px;
