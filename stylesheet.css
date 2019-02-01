@@ -19,6 +19,7 @@ html{
     /*Text properties*/
     font-family: url(/Fonts/Berlin_Sans_FB_Regular[1].ttf);
     font-size: 5em;
+    font-weight: bold;
     font-weight: 500;
     color:#FFFFFF; 
     text-align: center;
