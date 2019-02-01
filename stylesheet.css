@@ -717,11 +717,10 @@ textarea:focus{
     }
     /*Contact page*/
     #contactsection{
-        display: flex;
-        flex-direction: column;
+        scale: 0.4;
+        width: auto;
     }
     form{
-        scale: 0.4;
         width: 100%;
         margin-left: 10px;
         margin-right: 10px;
