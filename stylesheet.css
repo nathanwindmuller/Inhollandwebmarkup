@@ -494,7 +494,7 @@ textarea:focus{
         background-size: 100%;
         background-position: bottom;
         /*Text properties*/
-        font-family: 'Berlin Sans FB local';
+        font-family: 'Berlin Sans FB local', 'Berlin Sans FB';
         font-size: 5em;
         font-weight: 500;
         color:#FFFFFF; 
