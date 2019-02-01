@@ -1,12 +1,12 @@
 @font-face{
     font-family: 'Berlin Sans FB local';
-    src : url('./Fonts/BRLNSB.woff') format('woff');
+    src : url('../Fonts/BRLNSB.woff') format('woff');
 }
 body{
     margin: 0;
 }
 html{
-    background-image: url(img/background.jpeg);
+    background-image: url(../img/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -258,7 +258,7 @@ textarea:focus{
     body{
         margin: 0;
     }html{
-        background-image: url(img/background.jpeg);
+        background-image: url(../img/background.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -501,7 +501,7 @@ textarea:focus{
         margin: 0;
     }
     html{
-        background-image: url(img/background.jpeg);
+        background-image: url(../img/background.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
