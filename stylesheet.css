@@ -511,11 +511,15 @@ textarea:focus{
         margin: 0;
     }
     html{
+        scale: (1);
         background-image: url(img/background.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
+    }
+    .backgroundvideo{
+        display: none;
     }
     .mainheader{
         background-color: url(img/companylogoBG.png);
@@ -542,7 +546,8 @@ textarea:focus{
     }
     .dropdown{
         margin: 0;
-        width: 960px;
+        min-width: 960px;
+        width: auto;
         display: inherit;
         background-color:#606060;
         color: #ffffff;
@@ -593,7 +598,6 @@ textarea:focus{
     }
     .dropdown:hover .dropdown-content{
         display: block;
-        width: 100%;
     }
     .dropdown:hover .dropbtn{
         background-color: #606060;
@@ -718,10 +722,11 @@ textarea:focus{
     /*Contact page*/
     #contactsection{
         scale: 0.4;
+        min-width: 960px;
         width: auto;
     }
     form{
-        width: 100%;
+        width: auto;
         margin-left: 10px;
         margin-right: 10px;
         font-family: Arial, Helvetica, sans-serif;
