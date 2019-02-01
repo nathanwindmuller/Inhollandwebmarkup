@@ -22,7 +22,7 @@ html{
     z-index: -100;
 }
 .mainheader{
-    background-image: url(.img/companylogoBG.png);
+    background-image: url(../img/companylogoBG.png);
     background-size: cover;
     background-position: bottom;
     width: 960px;
@@ -282,7 +282,7 @@ textarea:focus{
         z-index: -100;
     }
     .mainheader{
-        background-image: url(img/companylogoBG.png);
+        background-image: url(../img/companylogoBG.png);
         background-size: cover;
         background-position: bottom;
         /*Text properties*/
@@ -522,7 +522,7 @@ textarea:focus{
         display: none;
     }
     .mainheader{
-        background-color: url(img/companylogoBG.png);
+        background-color: url(../img/companylogoBG.png);
         background-size: 100%;
         background-position: bottom;
         /*Text properties*/
