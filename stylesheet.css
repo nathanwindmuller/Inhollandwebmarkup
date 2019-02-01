@@ -22,7 +22,8 @@ html{
     /*Text properties*/
     font-family: "Berlin Sans FB local";
     font-size: 5em;
-    font-weight: 500;
+    font-style: oblique;
+    font-weight: bold;
     color:#FFFFFF; 
     text-align: center;
     padding-top: 40px;
