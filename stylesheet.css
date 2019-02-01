@@ -564,10 +564,10 @@ textarea:focus{
         display: none;
         background-color: #606060;
         color: #FFFFFF;
-        width: 100%;
         z-index: 1;
     }
     .dropdown-content a{
+        width: 100%;
         color: #FFFFFF;
         padding: 12px 16px;
         text-decoration: none;
