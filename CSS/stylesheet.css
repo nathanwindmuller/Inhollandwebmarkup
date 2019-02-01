@@ -144,28 +144,24 @@ footer{
 /*Special classes*/
 .homeimg1{
     background-position: center;
-    object-fit: cover;
     width: 960px;
     height: 450px;
     margin: auto;
 }
 .homeimg2{
     background-position: center;
-    object-fit: cover;
     width: 960px;
     height: 450px;
     margin: auto;
 }
 .homeimg3{
     background-position: center;
-    object-fit: cover;
     width: 960px;
     height: 450px;
     margin: auto;
 }
 .homeimg4{
     background-position: center;
-    object-fit: cover;
     width: 960px;
     height: 450px;
     margin: auto;
@@ -196,7 +192,6 @@ footer{
 }
 .productimg{
     flex-direction: row;
-    object-fit: fill;
     position: center;
     margin-bottom: 15px;
     height: 210px;
