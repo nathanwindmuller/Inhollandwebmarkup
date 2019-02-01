@@ -4,14 +4,20 @@
 }
 body{
     margin: 0;
-}
-html{
     scale: (1, 1);
-    background-image: url(img/background.jpeg);
+    background-attachment: url('./Movie/background(2).webm');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin:0;
+}
+.backgroundvideo{
+    position: fixed;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
 }
 .mainheader{
     background-image: url(img/companylogoBG.png);
@@ -706,7 +712,7 @@ textarea:focus{
         flex-direction: column;
     }
     form{
-        scale: 0.4;
+        scale: 0.3;
         margin-left: 10px;
         margin-right: 10px;
         font-family: Arial, Helvetica, sans-serif;
