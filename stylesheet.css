@@ -441,7 +441,7 @@ textarea:focus{
         border: solid;
         border-color: #606060;
     }
-    #Select{
+    .Select{
         margin-top: 35px;
         display: flex;
         flex-direction: column;
@@ -699,8 +699,12 @@ textarea:focus{
         background: none;
         float: right;
         font-family: Arial, Helvetica, sans-serif;
-        width: 526px;
         height: 44px;
+    }
+    .Select{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
     }
     label{
         color: #606060;
