@@ -1,0 +1,79 @@
+body{
+  margin: 0px;
+}
+html{
+  background-image: url(background.jpg);
+  background-color: white;
+  padding: 0px;
+  margin:0px;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+header{
+  text-align: center;
+  background-color: white;
+  font-size: 30pt;
+  font-family: times new roman, Times, serif;
+  font-style: oblique;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-line: 2px;
+  margin: 0;
+}
+nav{
+  text-align: center;
+  background-color: white;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 5px grey;
+  margin: 0;
+  width: 100%;
+  position: sticky;
+  top:0px;
+}
+.navlink{
+  text-align: center;
+  color: grey;
+  font-size: 12pt;
+  font-style: bold;
+  font-family: Arial;
+  text-decoration: none;
+  border-right: solid;
+  border-color: grey;
+  border-width: 2px;
+  padding: 10px;
+  text-shadow: 2px grey;
+  margin-bottom: 20px;
+}
+.navlinkfinal{
+  text-align: center;
+  color: grey;
+  font-size: 12pt;
+  font-style: bold;
+  font-family: Arial;
+  text-decoration: none;
+  padding: 10px;
+  text-shadow: 2px grey;
+  margin-bottom: 20px;
+}
+.homelink{
+  color: inherit;
+}
+section{
+  background-color: white;
+  height: 1000vh;
+  width: 50vw;
+  margin: 0;
+  margin-left: 25vw;
+}
+p{
+  margin: 0;
+}
+img{
+  padding: 10px;
+}
