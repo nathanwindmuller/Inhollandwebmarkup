@@ -1,3 +1,0 @@
-student name : Nathan Windmüller
-student number : 627023
-student class : inf1SA
